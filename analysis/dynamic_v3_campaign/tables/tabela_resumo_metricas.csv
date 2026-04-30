@@ -1,0 +1,16 @@
+Cenário,Política,Vazão total (Mbps),Satisfação global (%),Perda global (%),Atraso médio global (ms),Backlog médio final (MB),Backlog máximo final (MB),Fairness Jain,Satisfação hotspot (%),Perda hotspot (%),Backlog hotspot final (MB)
+Leve,Equal,23.641,89.834,10.138,343.457,0.641,12.18,0.999,35.137,64.863,12.18
+Leve,Round Robin,22.821,86.716,13.256,169.976,1.068,20.292,0.987,15.187,84.813,20.292
+Leve,Longest Queue First,26.308,99.968,0.0,23.004,0.0,0.0,0.823,100.0,0.0,0.0
+Leve,Greedy Backlog,26.308,99.968,0.0,40.408,0.005,0.017,0.823,100.0,0.0,0.0
+Leve,Proportional Fair,26.308,99.968,0.0,23.004,0.0,0.0,0.823,100.0,0.0,0.0
+Médio,Equal,37.474,82.847,17.127,90.268,3.887,73.86,0.969,5.833,94.168,73.86
+Médio,Round Robin,37.336,82.544,17.431,78.338,4.314,81.972,0.963,4.162,95.838,81.972
+Médio,Longest Queue First,39.884,88.176,11.796,403.119,1.282,24.36,0.992,35.142,64.858,24.36
+Médio,Greedy Backlog,39.884,88.176,11.796,923.382,1.433,24.36,0.992,35.142,64.858,24.36
+Médio,Proportional Fair,39.884,88.176,11.796,403.119,1.282,24.36,0.992,35.142,64.858,24.36
+Pesado Controlado,Equal,38.3,70.032,29.947,2226.14,7.409,104.7,0.939,4.098,95.902,104.7
+Pesado Controlado,Round Robin,44.694,81.724,18.252,362.638,6.023,112.812,0.959,2.931,97.069,112.812
+Pesado Controlado,Longest Queue First,45.996,84.103,15.872,300.071,2.937,55.2,0.994,15.589,84.411,55.2
+Pesado Controlado,Greedy Backlog,45.988,84.09,15.884,955.805,3.121,55.2,0.994,15.589,84.411,55.2
+Pesado Controlado,Proportional Fair,45.996,84.103,15.872,300.071,2.937,55.2,0.994,15.589,84.411,55.2

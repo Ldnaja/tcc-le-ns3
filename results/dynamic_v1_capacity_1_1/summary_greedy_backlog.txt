@@ -1,0 +1,15 @@
+policy=greedy_backlog
+nBeams=19
+nUsersPerBeam=4
+hotspotBeam=0
+simTime=120
+controlInterval=1
+baseUserRateMbps=0.5
+hotspotUserRateMbps=2
+totalChannels=48
+maxChannelsPerBeam=6
+channelCapacityMbps=1.1
+total_rx_mbps=11.8124
+global_delivery_ratio=0.0735731
+global_loss_rate=0.926427
+jain_fairness_rx_mbps=0.171153

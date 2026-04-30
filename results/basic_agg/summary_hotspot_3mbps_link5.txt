@@ -1,0 +1,10 @@
+nBeams=7
+nUsersPerBeam=4
+hotspotBeam=0
+simTime=60
+baseUserRateMbps=1
+hotspotUserRateMbps=3
+beamLinkRateMbps=5
+leoDelayMs=20
+packetSize=1000
+jain_fairness_rx_mbps=0.995796

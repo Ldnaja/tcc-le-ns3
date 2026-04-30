@@ -1,0 +1,41 @@
+{
+  "version": "dynamic_v3",
+  "common_args": {
+    "nBeams": 19,
+    "nUsersPerBeam": 4,
+    "simTime": 120,
+    "hotspotBeam": 0,
+    "totalChannels": 48,
+    "maxChannelsPerBeam": 6,
+    "minChannelsPerActiveBeam": 1,
+    "channelCapacityMbps": 1.1
+  },
+  "policies": [
+    "equal",
+    "round_robin",
+    "longest_queue_first",
+    "greedy_backlog",
+    "proportional_fair"
+  ],
+  "scenarios": [
+    {
+      "name": "light",
+      "base_user_rate_mbps": 0.3,
+      "hotspot_user_rate_mbps": 1.0,
+      "description": "Carga leve, com folga de capacidade."
+    },
+    {
+      "name": "medium",
+      "base_user_rate_mbps": 0.5,
+      "hotspot_user_rate_mbps": 2.0,
+      "description": "Cenário principal, com hotspot moderado."
+    },
+    {
+      "name": "heavy_controlled",
+      "base_user_rate_mbps": 0.6,
+      "hotspot_user_rate_mbps": 2.5,
+      "description": "Carga pesada controlada, levemente acima da capacidade nominal."
+    }
+  ],
+  "notes": "Cenários light, medium e heavy_controlled são recomendados para análise principal. O cenário extreme é teste de limite."
+}
